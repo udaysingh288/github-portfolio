@@ -1,0 +1,279 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>Kunwar Uday Singh | Machine Learning Engineer</title>
+
+  <meta name="description" content="Machine Learning Engineer building production-ready ML systems, MLOps pipelines, and LLM/RAG applications.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Kunwar Uday Singh, Uday, Machine Learning Engineer, MLOps, Python, SQL, Airflow, MLflow, Docker, FastAPI, PyTorch, BigQuery, RAG, LLM" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Kunwar Uday Singh</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>Machine Learning Engineer based in New York City (NYC metro). I build production-ready ML systems, MLOps pipelines, and LLM/RAG apps.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="projects">
+      <div class="row">
+        <h2>Featured Projects</h2>
+        <div class="work__boxes">
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Real-time TorchScript Model Serving + Observability</h3>
+              <p>
+                Production-style inference service serving a TorchScript PyTorch model behind FastAPI with strict Pydantic validation,
+                consistent preprocessing, and versioned model loading via MLflow Model Registry. Includes Docker packaging and basic
+                telemetry-friendly logging for reliability.
+              </p>
+              <ul class="work__list">
+                <li>PyTorch (TorchScript)</li>
+                <li>FastAPI</li>
+                <li>MLflow</li>
+                <li>Docker</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/<your-username>/torchscript-fastapi-mlflow" target="_blank" class="link__text">
+                  View Repo <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/<your-username>/torchscript-fastapi-mlflow" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Forecasting + Batch Scoring Pipeline (BigQuery + Airflow + MLflow)</h3>
+              <p>
+                End-to-end training and batch scoring pipeline with reproducible configs, rolling backtests, and scheduled retraining.
+                Publishes versioned outputs to BigQuery tables with automated QA checks to prevent data regressions.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>BigQuery SQL</li>
+                <li>Airflow</li>
+                <li>MLflow</li>
+                <li>Docker</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/<your-username>/forecasting-batch-scoring" target="_blank" class="link__text">
+                  View Repo <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/<your-username>/forecasting-batch-scoring" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-2.png" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>RAG Q&amp;A API for Governed Metrics + Docs</h3>
+              <p>
+                FastAPI-based RAG service that retrieves from a vector index (FAISS/Chroma) and returns structured, citation-ready answers.
+                Includes caching, rate limiting, and regression tests to catch quality drift across prompt/model changes.
+              </p>
+              <ul class="work__list">
+                <li>FastAPI</li>
+                <li>LangChain</li>
+                <li>FAISS / Chroma</li>
+                <li>OpenAI API</li>
+                <li>Docker</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/<your-username>/rag-metrics-assistant" target="_blank" class="link__text">
+                  View Repo <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/<your-username>/rag-metrics-assistant" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+</div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="experience">
+      <div class="row">
+        <h2>Experience</h2>
+        
+        <div class="about__content">
+          <div class="about__text">
+            <p><strong>WPP Media</strong> — Machine Learning Engineer (Nov 2024 – Present, New York, NY)</p>
+            <p>Forecasting + optimization pipelines (Python/BigQuery) orchestrated with Airflow, containerized with Docker, tracked with MLflow.
+              Built evaluation/holdout workflows and data-validation gates to stabilize scheduled scoring.</p>
+
+            <p><strong>IConsult</strong> — Data Scientist (Nov 2023 – Oct 2024, Syracuse, NY)</p>
+            <p>Reusable training + scoring pipelines (Python/SQL), uplift/causal scoring, and automated anomaly detection &amp; data-quality monitoring.</p>
+
+            <p><strong>Intradiem</strong> — AI/ML Engineer (May 2023 – May 2024, Atlanta, GA)</p>
+            <p>Classification + forecasting models, and an LLM/RAG support chatbot integrated into workflows. Built end-to-end MLOps pipelines on AWS SageMaker.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            
+            <p>
+              I’m a Machine Learning Engineer focused on building reliable, production-ready ML systems—end-to-end:
+              data pipelines, training/evaluation, deployment, and monitoring. My recent work spans forecasting and optimization,
+              LTV-style scoring, experimentation/holdout measurement, and LLM/RAG assistants that make analytics and documentation
+              easier to use at scale.
+            </p>
+            <p>
+              I care about clean interfaces, reproducible experiments, strong data quality gates, and practical performance (latency, cost, and maintainability).
+            </p>
+            <a href="./assets/KunwarUdayResume.pdf" class="btn">Download Resume</a>
+
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/uday-avatar.svg" alt="Kunwar Uday Singh" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>Are you looking to build a fast, reliable machine learning system—or want feedback on a project, model, or MLOps setup? Need consultation on forecasting, pipelines, deployment, or LLM/RAG apps? Or just want to say “Hi 👋”? In any case, feel free to reach out—I’ll do my best to respond.</p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:kunwarudaysingh.71@gmail.com" class="btn">kunwarudaysingh.71@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
+            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
